@@ -3,8 +3,22 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+  }
+
+  .mainContainer{
+    width: 50%;
+    height: auto;
+    margin-top: 2%;
+  }
   h1{
-    font-size: 100px;
+    font-size: 80px;
+    color: rgb(65, 62, 62);
     margin-bottom: 50px;
   }
 
@@ -17,9 +31,18 @@
     margin-right: 10px;
   }
 
-  input,
-  button{
+  .inputArea input,
+  #submit{
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid rgb(65, 62 , 62);
     font-size: 40px;
+    color: gray;
+  }
+
+  #submit:hover{
+    color: black;
+    cursor: pointer;
   }
   
   .inputArea {
